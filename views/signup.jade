@@ -1,0 +1,16 @@
+form(id="signup", method="POST", action="/signup")
+	lable(for='usermail') User Mail
+	input#usermail(type='text', name='usermail')
+	br
+	br
+	lable(for='username') User Name
+	input#username(type='text', name='username')
+	br
+	br
+	lable(for='password') Password
+	input#password(type='text', name='password')
+	br
+	br
+	input(type="submit", value="Sign UP")
+
+h1!=message

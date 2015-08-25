@@ -1,0 +1,14 @@
+{
+  "name": "task2_and_task3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.0.0rc4",
+    "jade": "*",
+    "nodemon": "*",
+    "mongoose" : "*"
+  }
+}
